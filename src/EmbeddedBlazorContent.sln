@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.28809.33
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmbeddedBlazorContent", "EmbeddedBlazorContent\EmbeddedBlazorContent.csproj", "{5F254F42-EA01-4E4C-8A6A-A255D51906CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmbeddedBlazorContent.ExampleApp", "EmbeddedBlazorContent.ExampleApp\EmbeddedBlazorContent.ExampleApp.csproj", "{7ED0B093-C314-4446-8364-2D695BD0613D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmbeddedBlazorContent.ExampleLib", "EmbeddedBlazorContent.ExampleLib\EmbeddedBlazorContent.ExampleLib.csproj", "{5B273648-CB71-40D8-8B48-321825E269B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{5F254F42-EA01-4E4C-8A6A-A255D51906CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F254F42-EA01-4E4C-8A6A-A255D51906CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F254F42-EA01-4E4C-8A6A-A255D51906CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ED0B093-C314-4446-8364-2D695BD0613D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ED0B093-C314-4446-8364-2D695BD0613D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ED0B093-C314-4446-8364-2D695BD0613D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ED0B093-C314-4446-8364-2D695BD0613D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B273648-CB71-40D8-8B48-321825E269B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B273648-CB71-40D8-8B48-321825E269B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B273648-CB71-40D8-8B48-321825E269B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B273648-CB71-40D8-8B48-321825E269B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

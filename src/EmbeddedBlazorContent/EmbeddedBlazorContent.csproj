@@ -3,6 +3,13 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <LangVersion>7.3</LangVersion>
+    <Description>AppBuilder and Html Helper to use embeded content files (js and css) in server side Blazor.</Description>
+    <Copyright>Vladimir Samoilenko</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/SamProf/EmbeddedBlazorContent</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/SamProf/EmbeddedBlazorContent</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Embedded, Blazor, Content, razor</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
