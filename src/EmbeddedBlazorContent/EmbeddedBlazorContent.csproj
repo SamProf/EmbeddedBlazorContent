@@ -11,6 +11,9 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>Embedded, Blazor, Content, razor</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Vladimir Samoilenko</Authors>
+    <Company>SamProf</Company>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
