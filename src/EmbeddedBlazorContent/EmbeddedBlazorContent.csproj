@@ -10,6 +10,7 @@
     <RepositoryUrl>https://github.com/SamProf/EmbeddedBlazorContent</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>Embedded, Blazor, Content, razor</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
