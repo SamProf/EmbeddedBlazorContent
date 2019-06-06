@@ -12,6 +12,10 @@ namespace EmbeddedBlazorContent
         public static IApplicationBuilder UseEmbeddedBlazorContent(this IApplicationBuilder app, Assembly assembly,
             string requestPath = EmbeddedBlazorContentConst.RequestPath)
         {
+            if (requestPath.StartsWith("~"))
+            {
+                requestPath = requestPath.Remove(0, 1);
+            }
             return app.UseStaticFiles(new StaticFileOptions()
             {
                 FileProvider = new EmbeddedBlazorContentProvider(assembly),

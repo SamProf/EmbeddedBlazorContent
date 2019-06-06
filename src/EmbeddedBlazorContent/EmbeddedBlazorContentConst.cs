@@ -7,6 +7,6 @@ namespace EmbeddedBlazorContent
 {
     public static class EmbeddedBlazorContentConst
     {
-        public const string RequestPath = "/EmbeddedBlazorFile";
+        public const string RequestPath = "~/EmbeddedBlazorFile";
     }
 }
