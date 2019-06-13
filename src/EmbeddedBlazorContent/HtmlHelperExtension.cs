@@ -15,7 +15,7 @@ namespace EmbeddedBlazorContent
             string requestPath = EmbeddedBlazorContentConst.RequestPath)
         {
 
-            var urlHelperFactory = html.ViewContext.HttpContext.RequestServices.GetRequiredService<IUrlHelperFactory>();
+            var urlHelperFactory = (IUrlHelperFactory)html.ViewContext.HttpContext.RequestServices.GetService(typeof(IUrlHelperFactory));
             var urlHelper = urlHelperFactory.GetUrlHelper(html.ViewContext);
 
             var sb = new StringBuilder();

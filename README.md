@@ -44,3 +44,9 @@ app.UseEmbeddedBlazorContent(assembly, "/staticContent");
 
 ## License
 [MIT](LICENSE)
+
+
+## News
+
+### EmbeddedBlazorContent 1.2.0
+- .NET Core 3.0.100-preview6-012264
