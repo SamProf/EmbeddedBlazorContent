@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-    <LangVersion>7.3</LangVersion>
+    <LangVersion>8.0</LangVersion>
     <Description>AppBuilder and Html Helper to use embeded content files (js and css) in server side Blazor.</Description>
     <Copyright>Vladimir Samoilenko</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -13,36 +13,36 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Vladimir Samoilenko</Authors>
     <Company>SamProf</Company>
-    <Version>1.2.0</Version>
+    <Version>1.3.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <Reference Include="Microsoft.AspNetCore.Html.Abstractions">
-      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\3.0.0-preview6.19307.2\ref\netcoreapp3.0\Microsoft.AspNetCore.Html.Abstractions.dll</HintPath>
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\3.0.0-preview7.19365.7\ref\netcoreapp3.0\Microsoft.AspNetCore.Html.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.AspNetCore.Http.Abstractions">
-      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\3.0.0-preview6.19307.2\ref\netcoreapp3.0\Microsoft.AspNetCore.Http.Abstractions.dll</HintPath>
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\3.0.0-preview7.19365.7\ref\netcoreapp3.0\Microsoft.AspNetCore.Http.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.AspNetCore.Mvc.Core">
-      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\3.0.0-preview6.19307.2\ref\netcoreapp3.0\Microsoft.AspNetCore.Mvc.Core.dll</HintPath>
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\3.0.0-preview7.19365.7\ref\netcoreapp3.0\Microsoft.AspNetCore.Mvc.Core.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.AspNetCore.Mvc.ViewFeatures">
-      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\3.0.0-preview6.19307.2\ref\netcoreapp3.0\Microsoft.AspNetCore.Mvc.ViewFeatures.dll</HintPath>
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\3.0.0-preview7.19365.7\ref\netcoreapp3.0\Microsoft.AspNetCore.Mvc.ViewFeatures.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.AspNetCore.StaticFiles">
-      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\3.0.0-preview6.19307.2\ref\netcoreapp3.0\Microsoft.AspNetCore.StaticFiles.dll</HintPath>
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\3.0.0-preview7.19365.7\ref\netcoreapp3.0\Microsoft.AspNetCore.StaticFiles.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Extensions.FileProviders.Abstractions">
-      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\3.0.0-preview6.19307.2\ref\netcoreapp3.0\Microsoft.Extensions.FileProviders.Abstractions.dll</HintPath>
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\3.0.0-preview7.19365.7\ref\netcoreapp3.0\Microsoft.Extensions.FileProviders.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Extensions.FileProviders.Embedded">
-      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\3.0.0-preview6.19307.2\ref\netcoreapp3.0\Microsoft.Extensions.FileProviders.Embedded.dll</HintPath>
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\3.0.0-preview7.19365.7\ref\netcoreapp3.0\Microsoft.Extensions.FileProviders.Embedded.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Extensions.Primitives">
-      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\3.0.0-preview6.19307.2\ref\netcoreapp3.0\Microsoft.Extensions.Primitives.dll</HintPath>
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\3.0.0-preview7.19365.7\ref\netcoreapp3.0\Microsoft.Extensions.Primitives.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.AspNetCore.Mvc.Abstractions">
-      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\3.0.0-preview6.19307.2\ref\netcoreapp3.0\Microsoft.AspNetCore.Mvc.Abstractions.dll</HintPath>
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\3.0.0-preview7.19365.7\ref\netcoreapp3.0\Microsoft.AspNetCore.Mvc.Abstractions.dll</HintPath>
     </Reference>
   </ItemGroup>
 
