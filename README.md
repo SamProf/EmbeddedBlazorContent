@@ -48,6 +48,9 @@ app.UseEmbeddedBlazorContent(assembly, "/staticContent");
 
 ## News
 
+### EmbeddedBlazorContent 1.4.0
+- .NET Core 3.0.0-preview8.19405.7
+
 ### EmbeddedBlazorContent 1.3.0
 - .NET Core 3.0.0-preview7.19365.7
 
