@@ -1,11 +1,12 @@
 ﻿@using Microsoft.JSInterop
 @inject IJSRuntime jsRuntime
+@using Microsoft.AspNetCore.Components.Web
 
 <div class="my-component">
     This Blazor component is defined in the <strong>EmbeddedBlazorContent.ExampleLib</strong> package.
     Click this button to execute JS from EmbeddedBlazorContent.ExampleLib content js file.
 
-    <button onclick="@Click">Click Me</button>
+    <button @onclick="Click">Click Me</button>
 </div>
 
 

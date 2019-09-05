@@ -48,6 +48,12 @@ app.UseEmbeddedBlazorContent(assembly, "/staticContent");
 
 ## News
 
+## Announcement
+- Component will be moved to MatBlazor repository
+
+### EmbeddedBlazorContent 1.7.0
+- Update to .NET Core 3.0 Preview 9
+
 ### EmbeddedBlazorContent 1.4.0
 - .NET Core 3.0.0-preview8.19405.7
 
