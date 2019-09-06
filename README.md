@@ -7,33 +7,33 @@
 [![MIT](https://img.shields.io/github/license/SamProf/EmbeddedBlazorContent.svg)](LICENSE)
 [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9XT68N2VKWTPE&source=url)
 
-This library helps you in server Blazor mode to enable content files from BlazorLib projects.
-In my opinion at this moment it is the perfomance and convenient way use embedded content files from Blazor Libraries.
+This library helps you with [server side Blazor projects](https://docs.microsoft.com/en-us/aspnet/core/blazor/hosting-models?view=aspnetcore-3.0#server-side) to enable content files from BlazorLib projects.
+In my opinion, it is the most perfomant and convenient way for using embedded content files from Blazor Libraries at this moment.
 
 ## Usage
 
-- Install latest version from [nuget](https://www.nuget.org/packages/EmbeddedBlazorContent/): [![NuGet](https://img.shields.io/nuget/v/EmbeddedBlazorContent.svg)](https://www.nuget.org/packages/EmbeddedBlazorContent/)
+- Install the latest version from [nuget](https://www.nuget.org/packages/EmbeddedBlazorContent/): [![NuGet](https://img.shields.io/nuget/v/EmbeddedBlazorContent.svg)](https://www.nuget.org/packages/EmbeddedBlazorContent/)
 
-- Enable Host return static content from embedded resources.
+- Enable host return static content from embedded resources.
 ```
 # Startup.cs
 app.UseEmbeddedBlazorContent(assembly);
 
-// or with custom requestPath
+// Or with custom request path
 
 app.UseEmbeddedBlazorContent(assembly, "/staticContent");
 ```
 
-- Include links to static content in page
+- Include links to static contents in a page
 ```html
 # _Host.cshtml
 @Html.EmbeddedBlazorContent(assembly)
 
-// or with custom requestPath
+// Or with custom request path
 
 @Html.EmbeddedBlazorContent(assembly, "/staticContent")
 
-// or all embedded content from all hosted asemblies
+// Or all embedded content from all hosted asemblies
 
 @Html.EmbeddedBlazorContent()
 ```
@@ -49,10 +49,10 @@ app.UseEmbeddedBlazorContent(assembly, "/staticContent");
 ## News
 
 ## Announcement
-- Component will be moved to MatBlazor repository
+- This component will be moved to [MatBlazor](https://github.com/SamProf/MatBlazor) repository soon.
 
 ### EmbeddedBlazorContent 1.7.0
-- Update to .NET Core 3.0 Preview 9
+- Updated to .NET Core 3.0 Preview 9
 
 ### EmbeddedBlazorContent 1.4.0
 - .NET Core 3.0.0-preview8.19405.7
