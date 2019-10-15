@@ -14,15 +14,13 @@ namespace EmbeddedBlazorContent
         public static IHtmlContent EmbeddedBlazorContent<T>(this IHtmlHelper<T> html, Assembly assembly = null,
             string requestPath = EmbeddedBlazorContentConst.RequestPath)
         {
-
-            var urlHelperFactory = (IUrlHelperFactory)html.ViewContext.HttpContext.RequestServices.GetService(typeof(IUrlHelperFactory));
+            var urlHelperFactory =
+                (IUrlHelperFactory) html.ViewContext.HttpContext.RequestServices.GetService(typeof(IUrlHelperFactory));
             var urlHelper = urlHelperFactory.GetUrlHelper(html.ViewContext);
 
             var sb = new StringBuilder();
-            
 
 
-            
             IEnumerable<EmbeddedBlazorContentFileInfo> files;
             if (assembly == null)
             {
@@ -43,7 +41,8 @@ namespace EmbeddedBlazorContent
                         sb.AppendLine($"<script src=\"{urlHelper.Content(requestPath + fileInfo.Name)}\"></script>");
                         break;
                     case EmbeddedBlazorContentFileType.Css:
-                        sb.AppendLine($"<link href=\"{urlHelper.Content(requestPath + fileInfo.Name)}\" rel=\"stylesheet\" />");
+                        sb.AppendLine(
+                            $"<link href=\"{urlHelper.Content(requestPath + fileInfo.Name)}\" rel=\"stylesheet\" />");
                         break;
                     default:
                         throw new ArgumentOutOfRangeException();
