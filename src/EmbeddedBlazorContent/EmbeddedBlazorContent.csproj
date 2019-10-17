@@ -13,7 +13,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Vladimir Samoilenko</Authors>
     <Company>SamProf</Company>
-    <Version>1.9.0</Version>
+    <Version>1.10.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
